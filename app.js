@@ -10,7 +10,7 @@ const getAdmin = require("./Routes/getAdmin")
 
 const getContacts = require("./Routes/getContacts")
 const searchContacts = require("./Routes/search");
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8000;
 
 //Use and config
 const app = express();
